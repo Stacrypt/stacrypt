@@ -13,3 +13,6 @@
 [submodule "stacrypt-web"]
 	path = stacrypt-web
 	url = git@github.com:mahdi13/stacrypt-web.git
+[submodule "stamatcher"]
+	path = stamatcher
+	url = git@github.com:mahdi13/stamatcher.git
