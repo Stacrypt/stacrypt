@@ -27,6 +27,9 @@
 |   |-- stauth-common *
 |   `-- stamatcher-common *
 |
+|-- monitoring
+|   `-- stawallet-web *
+|
 `-- stacrypt-web
    `-- cryptodaemon
 
@@ -57,7 +60,7 @@ Returns the complete information about each wallet
 #### Stauth
 
 ## Components
-#### stawallet-server
+#### stawallet
 The main cryptocurrency wallet
 
 ###### Inputs:
