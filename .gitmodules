@@ -19,3 +19,6 @@
 [submodule "stacrypt-api-doc"]
 	path = stacrypt-api-doc
 	url = git@github.com:mahdi13/stacrypt-api-doc.git
+[submodule "stauth"]
+	path = stauth
+	url = git@github.com:mahdi13/stauth.git
