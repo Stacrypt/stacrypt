@@ -1,5 +1,59 @@
 # Stacrypt
 
+## Structure
+
+```
+.
+|-- documentation
+|   |-- stacrypt-api-doc
+|   `-- stacrypt-meta
+|
+|-- utility
+|   `-- bootstacrypt
+|
+|-- font-end
+|   |-- stacrypt-web
+|   |-- stacrypt-android *
+|   `-- stacrypt-ios *
+|
+|-- services
+|   |-- cryptodaemon
+|   |-- stawallet
+|   |-- stauth
+|   `-- stamatcher
+|
+|
+|-- stacrypt-web
+|   |-- public
+|   `-- src
+|       |-- app
+|       |-- auth
+|       |-- index
+|       |-- logo
+|       `-- ticker
+|-- stamatcher
+|   |-- gradle
+|   |   `-- wrapper
+|   `-- src
+|       `-- main
+|           |-- kotlin
+|           `-- resources
+`-- stawallet
+    |-- gradle
+    |   `-- wrapper
+    `-- src
+        |-- main
+        |   |-- java
+        |   |-- kotlin
+        |   |   `-- wallet
+        |   `-- resources
+        `-- test
+            |-- java
+            |-- kotlin
+            `-- resources
+
+```
+
 ## Services
 #### Stawallet
 

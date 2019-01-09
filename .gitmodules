@@ -16,3 +16,6 @@
 [submodule "stamatcher"]
 	path = stamatcher
 	url = git@github.com:mahdi13/stamatcher.git
+[submodule "stacrypt-api-doc"]
+	path = stacrypt-api-doc
+	url = git@github.com:mahdi13/stacrypt-api-doc.git
