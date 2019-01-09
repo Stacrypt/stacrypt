@@ -7,3 +7,6 @@
 [submodule "bootstacrypt"]
 	path = bootstacrypt
 	url = git@github.com:mahdi13/bootstacrypt.git
+[submodule "stacrypt-meta"]
+	path = stacrypt-meta
+	url = git@github.com:mahdi13/stacrypt-meta.git
