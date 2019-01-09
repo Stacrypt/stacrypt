@@ -4,3 +4,6 @@
 [submodule "cryptodaemon"]
 	path = cryptodaemon
 	url = git@github.com:mahdi13/cryptodaemon.git
+[submodule "bootstacrypt"]
+	path = bootstacrypt
+	url = git@github.com:mahdi13/bootstacrypt.git
