@@ -1,3 +1,6 @@
 [submodule "stawallet"]
 	path = stawallet
 	url = git@github.com:mahdi13/stawallet.git
+[submodule "cryptodaemon"]
+	path = cryptodaemon
+	url = git@github.com:mahdi13/cryptodaemon.git
