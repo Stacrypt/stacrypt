@@ -1,0 +1,3 @@
+[submodule "stawallet"]
+	path = stawallet
+	url = git@github.com:mahdi13/stawallet.git
