@@ -22,35 +22,13 @@
 |   |-- stauth
 |   `-- stamatcher
 |
+|-- common
+|   |-- stawallet-common *
+|   |-- stauth-common *
+|   `-- stamatcher-common *
 |
-|-- stacrypt-web
-|   |-- public
-|   `-- src
-|       |-- app
-|       |-- auth
-|       |-- index
-|       |-- logo
-|       `-- ticker
-|-- stamatcher
-|   |-- gradle
-|   |   `-- wrapper
-|   `-- src
-|       `-- main
-|           |-- kotlin
-|           `-- resources
-`-- stawallet
-    |-- gradle
-    |   `-- wrapper
-    `-- src
-        |-- main
-        |   |-- java
-        |   |-- kotlin
-        |   |   `-- wallet
-        |   `-- resources
-        `-- test
-            |-- java
-            |-- kotlin
-            `-- resources
+`-- stacrypt-web
+   `-- cryptodaemon
 
 ```
 
