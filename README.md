@@ -1,14 +1,17 @@
 # Stacrypt
 
+Stacrypt is a multi-coin cryptocurrency exchange
+
 ## Structure
 
 ```
-.
+stacrypt
 |-- documentation
 |   |-- stacrypt-api-doc
 |   `-- stacrypt-meta
 |
 |-- utility
+|   |-- cryptodaemon
 |   `-- bootstacrypt
 |
 |-- font-end
@@ -17,17 +20,18 @@
 |   `-- stacrypt-ios *
 |
 |-- services
-|   |-- cryptodaemon
 |   |-- stawallet
 |   |-- stauth
 |   `-- stamatcher
 |
-|-- common
-|   |-- stawallet-common *
-|   |-- stauth-common *
-|   `-- stamatcher-common *
+|-- services (add-on)
+|   |-- stariskless *
+|   `-- stamaker *
 |
-|-- monitoring
+|-- common
+|   `-- stapi-common *
+|
+|-- admin
 |   `-- stawallet-web *
 |
 `-- stacrypt-web
@@ -54,10 +58,6 @@ Returns the complete information about each wallet
 * `/wallets/{cryptocurrency_code}/addresses` GET
 
 
-#### Stabook
-
-
-#### Stauth
 
 ## Components
 #### stawallet
@@ -72,6 +72,6 @@ The main cryptocurrency wallet
 * Ethereum: geth
 * Ripple: rippled
 
-#### stawallet-ui-admin
+#### stawallet-web
 Web front-end of *stawallet-server*
 
