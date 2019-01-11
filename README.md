@@ -56,11 +56,20 @@ Backend:
 | Technology | StaWallet | StExchange | StEmerald |
 |---|---|---|---|
 | Language | Kotlin | C | Python |
+| Framework | Ktor | C | Python |
 | API | Json-RPC + REST | Json-RPC + Websocket | REST |
 | Streaming | - | Kafka | - |
 | Database | Xodus | MySQL + REDIS | REDIS |
 | Database Migration | - | - | Alembic |
 
+Frontend:
+
+| Technology | Web | Android | iOS |
+|---|---|---|---|
+| Language | Kotlin | KotlinJS | KotlinNative + Swift |
+| Framework | React | Anko | - |
+| Interface | Material | Material | Material |
+| Build System | Webpack | Gradle | - |
 
 
 ## Services
