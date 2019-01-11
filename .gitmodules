@@ -22,3 +22,9 @@
 [submodule "stauth"]
 	path = stauth
 	url = git@github.com:mahdi13/stauth.git
+[submodule "stexchange"]
+	path = stexchange
+	url = git@github.com:mahdi13/stexchange.git
+[submodule "stemerald"]
+	path = stemerald
+	url = git@github.com:mahdi13/stemerald.git
