@@ -43,7 +43,7 @@ stacrypt
 Architecture:
 
 | Technology | Development | Deployment |
-|---|---|---|---|
+|---|---|---|
 | OS | Ubuntu | Alpine + Ubuntu |
 | Container | (Docker) | Docker |
 | Cluster | (Docker Compose) | Kubernate |
@@ -55,7 +55,7 @@ Architecture:
 Backend:
 
 | Technology | StaWallet | StExchange | StEmerald |
-|---|---|---|
+|---|---|---|---|
 | Language | Kotlin | C | Python |
 | Framework | Ktor | network | Restfulpy |
 | API | Json-RPC + REST | Json-RPC + Websocket | REST |
