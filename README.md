@@ -1,8 +1,8 @@
 # Stacrypt
 
-Stacrypt is a multi-coin cryptocurrency exchange
+Stacrypt is a multi-cryptocurrency exchange.
 
-## Structure
+## Directory Structure
 
 ```
 stacrypt
@@ -16,36 +16,57 @@ stacrypt
 |
 |-- font-end
 |   |-- stacrypt-web
-|   |-- stacrypt-android *
-|   `-- stacrypt-ios *
+|   |-- stacrypt-android (TODO)
+|   `-- stacrypt-ios (TODO)
 |
 |-- services
 |   |-- stawallet
-|   |-- stauth
-|   `-- stamatcher
+|   |-- stemerald
+|   |-- stexchange
+|   |-- stauth (DEPRECATED)
+|   `-- stamatcher (DEPRECATED)
 |
-|-- services (add-on)
-|   |-- stariskless *
-|   `-- stamaker *
+|-- add-on services
+|   |-- stariskless (TODO)
+|   `-- stamaker (TODO)
 |
 |-- common
-|   `-- stapi-common *
+|   `-- stapi-common (DEPRECATED)
 |
-|-- admin
-|   `-- stawallet-web *
-|
-`-- stacrypt-web
-   `-- cryptodaemon
+`-- admin
+    `-- stawallet-web (TODO)
 
 ```
 
+## Technology Stack
+
+Environment:
+
+| Technology | Development | Deployment |
+|---|---|---|---|
+| OS | Ubuntu | Alpine + Ubuntu |
+| Container | (Docker) | Docker |
+| Cluster | (Docker Compose) | Kubernate |
+| Alerting | (Docker Compose) | Kubernate |
+
+Backend:
+
+| Technology | stawallet | stexchange | stemerald |
+|---|---|---|---|
+| API | Json-RPC + REST | Json-RPC + Websocket | REST |
+| Streaming | - | Kafka | - |
+|Database| Xodus | MySQL + REDIS | REDIS |
+
+
+
 ## Services
 #### Stawallet
+The main cryptocurrency wallet
 
 ###### RPC API
 * createPayment(): {address: String, data: String}
 Return an address and maybe a data to receive new cryptocurrency transaction.
-Usage is different per cryptocurrency. For example: 
+Usage is different per cryptocurrency. For example:
     * `Bitcoin`: Return a new address (without any data)
     * `Ethereum`: Return a new address (without any data)
     * `Ripple`: Return a static address and a new `invoice_id`
@@ -74,4 +95,3 @@ The main cryptocurrency wallet
 
 #### stawallet-web
 Web front-end of *stawallet-server*
-
