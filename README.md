@@ -40,22 +40,26 @@ stacrypt
 
 ## Technology Stack
 
-Environment:
+Architecture:
 
 | Technology | Development | Deployment |
 |---|---|---|---|
 | OS | Ubuntu | Alpine + Ubuntu |
 | Container | (Docker) | Docker |
 | Cluster | (Docker Compose) | Kubernate |
-| Alerting | (Docker Compose) | Kubernate |
+| Secret Manager | Vault | Vault |
+| Service Discovery | Consul | Consul |
+| Broker | ZooKeeper | ZooKeeper |
 
 Backend:
 
-| Technology | stawallet | stexchange | stemerald |
+| Technology | StaWallet | StExchange | StEmerald |
 |---|---|---|---|
+| Language | Kotlin | C | Python |
 | API | Json-RPC + REST | Json-RPC + Websocket | REST |
 | Streaming | - | Kafka | - |
-|Database| Xodus | MySQL + REDIS | REDIS |
+| Database | Xodus | MySQL + REDIS | REDIS |
+| Database Migration | - | - | Alembic |
 
 
 
