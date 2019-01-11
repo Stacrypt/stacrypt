@@ -51,16 +51,18 @@ Architecture:
 | Service Discovery | Consul | Consul |
 | Broker | ZooKeeper | ZooKeeper |
 
+
 Backend:
 
 | Technology | StaWallet | StExchange | StEmerald |
 |---|---|---|---|
 | Language | Kotlin | C | Python |
-| Framework | Ktor | C | Python |
+| Framework | Ktor | network | Restfulpy |
 | API | Json-RPC + REST | Json-RPC + Websocket | REST |
 | Streaming | - | Kafka | - |
 | Database | Xodus | MySQL + REDIS | REDIS |
 | Database Migration | - | - | Alembic |
+
 
 Frontend:
 
