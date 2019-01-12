@@ -38,6 +38,18 @@ stacrypt
 
 ```
 
+| Repositories |
+|---|
+| [stacrypt-api-doc](https://github.com/mahdi13/stacrypt-api-doc) |
+| [stacrypt-meta](https://github.com/mahdi13/stacrypt-meta) |
+| [cryptodaemon](https://github.com/mahdi13/cryptodaemon) |
+| [bootstacrypt](https://github.com/mahdi13/bootstacrypt) |
+| [stacrypt-web](https://github.com/mahdi13/stacrypt-web) |
+| [stawallet](https://github.com/mahdi13/stawallet) |
+| [stemerald](https://github.com/mahdi13/stemerald) |
+| [stexchange](https://github.com/mahdi13/stexchange) |
+
+
 ## Technology Stack
 
 Architecture:
